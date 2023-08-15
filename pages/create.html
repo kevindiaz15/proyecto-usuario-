@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Creación de Usuario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/create.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Creación de Usuario</a></li>
+            <li><a href="./login.html">Inicio de Sesión</a></li>
+        </ul>
+    </nav>
+    
+    <div class="caja2">
+
+        <form action="../php/registrar.php" method="post" class="form-box">
+            <h1>Registro de Usuario</h1>
+            <label for="nombre"></label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo"><br><br>
+            
+            <label for="usuario"></label>
+            <input type="text" id="usuario" name="usuario" required placeholder="usuario"><br><br>
+            
+            <label for="contrasena"></label>
+            <input type="password" id="contrasena" name="contrasena" required placeholder="contraseña"><br><br>
+            
+            <input type="submit" value="Registrarse">
+        </form>
+       
+    </div>
+    <footer>
+        &copy; Kevin Diaz. tarea #1 conexion con PHP
+        para politecnico. 2023.
+      </footer>
+</body>
+</html>

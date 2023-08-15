@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Inicio de Sesión</title>
+    <link rel="stylesheet" href="../style/login.css">
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./create.html">Creación de Usuario</a></li>
+            <li><a href="#">Inicio de Sesión</a></li>
+        </ul>
+    </nav>
+    
+    <div class="caja2"> 
+        
+        <form action="../php/login.php" method="post" class="form-box">
+            <h1>Iniciar Sesión</h1>
+            <label for="usuario"></label>
+            <input type="text" id="usuario"  class="espacio" name="usuario" required placeholder="Usuario"><br><br>
+            
+            <label for="contrasena"></label>
+            <input type="password" id="contrasena" class="espacio" name="contrasena" required placeholder="Contraseña"><br><br>
+            
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+    <footer>
+        &copy; Kevin Diaz. tarea #1 conexion con PHP
+        para politecnico. 2023.
+      </footer>
+</body>
+</html>
